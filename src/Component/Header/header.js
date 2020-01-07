@@ -12,7 +12,7 @@ class Header extends Component {
     }
 
     changeState() {
-        this.setState({
+        this.setState({ //Alterar o estado da propriedade
             title: "First Project"
         })
     }
