@@ -4,9 +4,9 @@ class Footer extends Component {
     render() {
         return (
             <div >
-                <footer className="App-footer">
+                <footer className="App-footer App">
                     © Derio Matheus 2020
-              </footer>
+                </footer>
             </div>
 
         );

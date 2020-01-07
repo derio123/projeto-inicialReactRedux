@@ -4,12 +4,10 @@ class User extends Component {
     render() {
         return (
             <div className="App">
-              <img className="avatar" src={this.props.photo}/>
-              nome: {this.props.name}
+              <p><img className="avatar" alt="Avatar" src={this.props.photo}/>nome: {this.props.name}</p>
             </div>
           );
     }
-  
 }
 
 export default User;
