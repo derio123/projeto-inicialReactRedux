@@ -3,17 +3,17 @@ import UserFrom from './UserFrom'
 
 class User extends Component {
   render() {
-      let list = [
+      /* let list = [
         {name: "Derio",
         email: "m.derio@gmail.com"},
         {name: "liana",
         email: "liana.k@gmail.com"},
       ]
-      let desc = ["name", "email"]
+      let desc = ["name", "email"] */
     return (
       <div className="App-Table">
-          <UserFrom></UserFrom>
-        <table>
+          <UserFrom className="App"></UserFrom>
+        {/* <table>
             <tr><th>{desc[0]}</th><th>{desc[1]}</th></tr>
             {list.map((item) =>{
                 return <tr>
@@ -21,7 +21,7 @@ class User extends Component {
                     <td>{item.email}</td>
                 </tr>
             })}
-        </table>
+        </table> */}
       </div>
 
     );}}
